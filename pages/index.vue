@@ -12,8 +12,8 @@
 export default {
   data() {
     return {
-      todos: ['これと', 'あれと', 'それ'],
+      todos: ["これと", "あれと", "それ"]
     }
   }
-};
+}
 </script>

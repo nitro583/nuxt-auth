@@ -5,15 +5,12 @@
         <p class="text-center">
           ログインユーザのみ閲覧可能なコンテンツ
         </p>
+        <p class="text-center">
+          サンプルページ
+        </p>
         <div class="pa-5">
-          <v-btn
-            block
-            color="indigo darken-1"
-            nuxt
-            to="/sample"
-            class="white--text"
-          >
-            サンプルページへ
+          <v-btn block color="indigo darken-1" nuxt to="/" class="white--text">
+            トップページへ
           </v-btn>
         </div>
         <div class="pa-5">

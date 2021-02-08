@@ -13,8 +13,14 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/dotenv": "^1.4.1",
     "core-js": "^3.8.3",
-    "nuxt": "^2.14.12"
+    "firebase": "^8.2.6",
+    "firebaseui": "^4.7.3",
+    "nuxt": "^2.14.12",
+    "sabe": "^1.0.0",
+    "save": "^2.4.0",
+    "zxcvbn": "^4.4.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",
@@ -31,6 +37,6 @@
     "prettier": "^1.19.1",
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.1.0",
-    "sass-loader": "^11.0.0"
+    "sass-loader": "^7.1.0"
   }
 }

@@ -211,7 +211,7 @@ export default {
             this.register_email = ""
             this.register_password = ""
             this.$router.push({
-              name: "index",
+              name: "mypage",
               params: {
                 dashboard_msg: true,
                 dashboard_msg_text: "アカウントの登録が完了しました。"

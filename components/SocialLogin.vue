@@ -53,7 +53,7 @@ export default {
         .dispatch("signInWithGoogle")
         .then(() => {
           this.$router.push({
-            name: "index"
+            name: "mypage"
           })
         })
         .catch(err => {

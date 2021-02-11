@@ -2,15 +2,18 @@
   <v-container>
     <v-row wrap justify="center" align="center">
       <v-col :sm="12" :md="8">
-        <p class="text-center">
-          ログインユーザのみ閲覧可能なコンテンツ
-        </p>
-        <p class="text-center">
-          サンプルページ
-        </p>
+        <h1 class="text-center">
+          Mypage
+        </h1>
         <div class="pa-5">
-          <v-btn block color="indigo darken-1" nuxt to="/" class="white--text">
-            トップページへ
+          <v-btn
+            block
+            color="indigo darken-1"
+            nuxt
+            to="/sample"
+            class="white--text"
+          >
+            サンプルページへ
           </v-btn>
         </div>
         <div class="pa-5">
@@ -21,7 +24,7 @@
             to="/test"
             class="white--text"
           >
-            TESTページへ
+            testページへ
           </v-btn>
         </div>
         <div class="pa-5">

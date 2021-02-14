@@ -21,6 +21,13 @@
             ログアウト
           </v-btn>
         </div>
+        <div>
+          <h2>Firebaseを使った読み書き確認</h2>
+          <input v-model="message" />
+          <button @click="addMessage">
+            メッセージを追加
+          </button>
+        </div>
       </v-col>
     </v-row>
   </v-container>
@@ -28,6 +35,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      message: ""
+    }
+  },
   methods: {
     signOut: function(err) {
       this.$store

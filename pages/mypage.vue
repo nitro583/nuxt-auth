@@ -6,6 +6,44 @@
           Mypage
         </h1>
         <div class="pa-5">
+          <!--アカウント画像編集-->
+          <div class="m-4 p-4 bg-white shadow rounded">
+            <h2 class="text-2xl text-center text-darkGray">
+              アカウント登録
+            </h2>
+            <form>
+              <img src="~assets/person.svg" alt="person" />
+              <input
+                ref="image"
+                type="file"
+                style="display: none"
+                accept="image/*"
+              />
+              <label>
+                名前
+              </label>
+              <div class="h-20 mb-6">
+                <input type="text" />
+              </div>
+
+              <!--アカウント画像編集ここまで-->
+              <div class="flex">
+                <button>
+                  登録
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <v-btn
+            block
+            color="indigo darken-1"
+            nuxt
+            to="/upload"
+            class="white--text"
+          >
+            UPLOAD
+          </v-btn>
           <v-btn
             block
             color="indigo darken-1"

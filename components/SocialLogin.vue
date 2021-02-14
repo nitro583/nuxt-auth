@@ -44,8 +44,6 @@
 </template>
 
 <script>
-import { auth } from "~/plugins/firebase.js"
-
 export default {
   methods: {
     googleLogin: function(err) {
